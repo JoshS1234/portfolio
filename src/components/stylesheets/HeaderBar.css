@@ -1,0 +1,30 @@
+.headerBar {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.3);
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headerImageContainer {
+  width: 40%;
+  align-items: right;
+  display: flex;
+}
+
+.headerImage {
+  width: 50%;
+  display: flex;
+  align-items: right;
+}
+
+@media (max-width: 700px) {
+  .headerImageContainer {
+    width: 100%;
+    align-items: right;
+    display: flex;
+    justify-content: space-around;
+  }
+}
