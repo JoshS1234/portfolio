@@ -3,14 +3,14 @@
   flex-direction: column;
 }
 
-#box2 {
+#box1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-#box2TextContainer {
+#box1TextContainer {
   width: 30%;
   align-items: center;
   justify-content: space-around;
@@ -18,20 +18,20 @@
   text-align: left;
 }
 
-#box2ImageContainer {
+#box1ImageContainer {
   width: 50%;
   align-items: center;
   display: flex;
   justify-content: space-around;
 }
 
-#box2Image {
-  width: 80%;
+#box1Image {
+  width: 50%;
   padding: 10%;
-  border-radius: 2%;
+  border-radius: 50%;
 }
 
-#box2button {
+#box1button {
   padding: 10px;
   color: white;
   background-color: rgba(0, 120, 255, 1);

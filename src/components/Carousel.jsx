@@ -34,7 +34,7 @@ export default function Carousel() {
   }, []);
 
   return (
-    <div classname={styles.container}>
+    <div>
       <Swiper
         modules={[Navigation, EffectFade]}
         navigation
@@ -89,6 +89,10 @@ export default function Carousel() {
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
                 height: "500px",
+                display: "flex",
+                flexDirection: "column",
+                alignContent: "center",
+                justifyContent: "space-around",
               }}
             >
               <div className="swiperContent">
@@ -98,8 +102,9 @@ export default function Carousel() {
                   </h1>
                   <h4>{item.description}</h4>
                 </div>
-
-                <div className="swiperContentBox">{media}</div>
+                <Link to="/projects">
+                  <button id="box1button">Learn more</button>
+                </Link>
               </div>
             </SwiperSlide>
           );

@@ -15,9 +15,16 @@
 }
 
 .headerImage {
+  width: 40%;
+  display: flex;
+  align-items: right;
+}
+
+.headerImage img {
   width: 50%;
   display: flex;
   align-items: right;
+  border-radius: 50%;
 }
 
 @media (max-width: 700px) {

@@ -5,7 +5,7 @@ export default function FooterBar() {
   return (
     <div id="footerBar">
       <p id="footerText">
-        Website Development by <u>AVAMAE</u>
+        Website Development by <u>Joshua Spence</u>
       </p>
     </div>
   );

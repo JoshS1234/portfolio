@@ -8,13 +8,15 @@ export default function NavBar() {
       <Link to="/" className="linkButton">
         Home
       </Link>
-      <Link to="/about-us" className="linkButton">
-        About us
+      <Link to="/about-me" className="linkButton">
+        About me
+      </Link>
+      <Link to="/projects" className="linkButton">
+        Projects
       </Link>
       <Link to="/contact-us" className="linkButton">
         Contact us
       </Link>
-      <input type="button" name="Login" value="Login" id="loginButton" />
     </nav>
   );
 }
