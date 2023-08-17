@@ -18,6 +18,19 @@
   width: 40%;
 }
 
+.BiographyContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.CVButton {
+  margin: 3% 0% 0% 0%;
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+}
+
 @media (max-width: 700px) {
   #aboutImage {
     width: 80%;

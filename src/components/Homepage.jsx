@@ -25,16 +25,16 @@ export default function Homepage() {
           <img src={box1Image} id="box1Image" />
         </div>
         <div id="box1TextContainer">
-          <h3>{lorem.generateSentences(1)}</h3>
-          <p>{lorem.generateSentences(5)}</p>
-          <ul id="bulletpoints">
-            <li key="point1">{lorem.generateWords(10)}</li>
-            <li key="point2">{lorem.generateWords(15)}</li>
-            <li key="point3">{lorem.generateWords(12)}</li>
-          </ul>
-          <Link to="/about-me">
-            <button id="box1button">Learn more</button>
-          </Link>
+          <div>
+            <h2>I'm Josh. A junior full-stack software developer.</h2>
+            <p>
+              I worked as a Maths teacher for several years before deciding to
+              swap careers to software development. I completed the Northcoders
+              software development bootcamp and I am looking to begin a career
+              where I can apply these skills in a professional capacity.
+            </p>
+            <p>This is my portfolio site. I made it JavaScript and React.</p>
+          </div>
         </div>
       </div>
       <Carousel />
