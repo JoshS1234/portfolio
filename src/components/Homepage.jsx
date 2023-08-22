@@ -33,7 +33,11 @@ export default function Homepage() {
               software development bootcamp and I am looking to begin a career
               where I can apply these skills in a professional capacity.
             </p>
-            <p>This is my portfolio site. I made it JavaScript and React.</p>
+            <p>
+              This is my portfolio site, showing off some of my experience and
+              previous projects. I made it using JavaScript and React. Feel free
+              to contact me if you have any questions!
+            </p>
           </div>
         </div>
       </div>
