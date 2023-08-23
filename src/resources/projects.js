@@ -2,12 +2,13 @@ import six from "./images/6.png";
 import blackjack from "./images/Blackjack.png";
 import boardGameReviews from "./images/BoardGameReviews.png";
 import pendulum from "./images/PendulumImage.jpg";
-import pokeguessr from "./images/Blackjack.png";
+import pokeguessr from "./images/pokeguessr.png";
 import pythonMandelbrot from "./images/PythonMandelbrot.png";
 import TicTacToe from "./images/TicTacToe.png";
 
 export default [
   {
+    id: 1,
     name: "NC Games - Frontend",
     image_url: boardGameReviews,
     video_url: "",
@@ -22,6 +23,7 @@ export default [
     year: 2022,
   },
   {
+    id: 2,
     name: "NC Games - Backend",
     image_url: "",
     video_url: "",
@@ -37,6 +39,7 @@ export default [
     year: 2022,
   },
   {
+    id: 3,
     name: "Pokeguessr",
     image_url: pokeguessr,
     video_url: "",
@@ -51,6 +54,7 @@ export default [
     year: 2022,
   },
   {
+    id: 4,
     name: "Snap App",
     image_url: "",
     video_url: "g47hsMFTKLA",
@@ -65,6 +69,7 @@ export default [
     year: 2022,
   },
   {
+    id: 4,
     name: "Vicsek model of bird flocking",
     image_url: "",
     video_url: "kT1rA1vLfCs",
@@ -79,6 +84,7 @@ export default [
     year: 2020,
   },
   {
+    id: 5,
     name: "Mandelbrot fractal pattern - Changing power",
     image_url: "",
     video_url: "sp-zj7p8zPE",
@@ -88,11 +94,12 @@ export default [
     tech: "",
     description:
       "This generates a fractal pattern based on the Mandelbrot fractal, and replots for various different indices, it then uses these images to generate a video showing how the power affects the fractal",
-    description:
+    detailedDescription:
       "This generates a fractal pattern based on the Mandelbrot fractal, and replots for various different indices, it then uses these images to generate a video showing how the power affects the fractal",
     year: 2020,
   },
   {
+    id: 6,
     name: "2D pendulum motion",
     image_url: pendulum,
     video_url: "thhOujbmXdA",
@@ -102,9 +109,12 @@ export default [
     tech: "",
     description:
       "This uses Euler's method of solving differential equations to show the movement of a pendulum in 2D",
+    detailedDescription:
+      "This generates a fractal pattern based on the Mandelbrot fractal, and replots for various different indices, it then uses these images to generate a video showing how the power affects the fractal",
     year: 2020,
   },
   {
+    id: 7,
     name: "Mandelbrot fractal",
     image_url: pythonMandelbrot,
     video_url: "",
@@ -113,9 +123,13 @@ export default [
     language: "Python",
     tech: "",
     description: "This is a mathematical model which creates a fractal pattern",
+    detailedDescription:
+      "This generates a fractal pattern based on the Mandelbrot fractal, and replots for various different indices, it then uses these images to generate a video showing how the power affects the fractal",
+
     year: 2021,
   },
   {
+    id: 8,
     name: "Handwriting recognition - Neural network",
     image_url: six,
     video_url: "",
@@ -125,9 +139,13 @@ export default [
     tech: "",
     description:
       "This uses a neural network (trained on the MNIST dataset) in order to recognise handwritten numbers. It is coded from scratch, and doesn't use machine learning software packages.",
+    detailedDescription:
+      "This generates a fractal pattern based on the Mandelbrot fractal, and replots for various different indices, it then uses these images to generate a video showing how the power affects the fractal",
+
     year: 2020,
   },
   {
+    id: 9,
     name: "ASCII Tic Tac Toe (Noughts and crosses)",
     image_url: TicTacToe,
     video_url: "",
@@ -137,9 +155,13 @@ export default [
     tech: "",
     description:
       "This is a game of noughts and crosses in the command line. It was completed as a project during an online Python fundamentals course (over the first lockdown).",
+    detailedDescription:
+      "This generates a fractal pattern based on the Mandelbrot fractal, and replots for various different indices, it then uses these images to generate a video showing how the power affects the fractal",
+
     year: 2020,
   },
   {
+    id: 10,
     name: "Blackjack",
     image_url: blackjack,
     video_url: "",
@@ -149,6 +171,9 @@ export default [
     tech: "",
     description:
       "This was completed as a project during an online Python fundamentals course (over the first lockdown). It attempts to simulate a game of blackjack (entirely in the command line)",
+    detailedDescription:
+      "This generates a fractal pattern based on the Mandelbrot fractal, and replots for various different indices, it then uses these images to generate a video showing how the power affects the fractal",
+
     year: 2020,
   },
 ];

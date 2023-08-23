@@ -14,8 +14,8 @@ export default function NavBar() {
       <Link to="/projects" className="linkButton">
         Projects
       </Link>
-      <Link to="/contact-us" className="linkButton">
-        Contact us
+      <Link to="/contact-me" className="linkButton">
+        Contact me
       </Link>
     </nav>
   );
