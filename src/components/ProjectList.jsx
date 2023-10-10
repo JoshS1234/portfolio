@@ -11,7 +11,7 @@ export default function ProjectList(props) {
 
   return (
     <div>
-      <h1>Projects</h1>
+      <h1>My Projects</h1>
       <div className="projectBox">
         {projects.map((item) => {
           return (
@@ -27,7 +27,9 @@ export default function ProjectList(props) {
                   {item.name}, {item.year}
                 </h2>
                 <h4>
-                  Languages and tech: {item.language}, {item.tech}
+                  Languages and tech: {item.language}
+                  {""}
+                  {item.tech ? <>, {item.tech}</> : <></>}
                 </h4>
                 <h6>{item.description}</h6>
 

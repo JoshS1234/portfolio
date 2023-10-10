@@ -38,24 +38,26 @@ export default function Homepage() {
               previous projects. I made it using JavaScript and React. Feel free
               to contact me if you have any questions!
             </p>
+            <Link to="/contact-me">
+              <button id="box1button">Contact me</button>
+            </Link>
           </div>
         </div>
       </div>
       <Carousel />
-
-      <div id="box4">
-        <div>
-          <h3>{lorem.generateSentences(1)}</h3>
-          <h4>{lorem.generateSentences(1)}</h4>
-          <div id="box4TextContainer">
-            <strong>
-              <p>{lorem.generateParagraphs(1)}</p>
-            </strong>
-            <p>{lorem.generateParagraphs(2)}</p>
-            <p>{lorem.generateParagraphs(2)}</p>
-          </div>
+      {/* <div>
+        <h3>{lorem.generateSentences(1)}</h3>
+        <h4>{lorem.generateSentences(1)}</h4>
+        <div id="box4TextContainer">
+          <strong>
+            <p>{lorem.generateParagraphs(1)}</p>
+          </strong>
+          <p>{lorem.generateParagraphs(2)}</p>
+          <p>{lorem.generateParagraphs(2)}</p>
         </div>
-        <Link to="/contact-us">
+      </div> */}
+      <div id="box4">
+        <Link to="/contact-me">
           <button className="homepageButton">Contact me</button>
         </Link>
       </div>
