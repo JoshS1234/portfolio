@@ -45,17 +45,28 @@ export default function Homepage() {
         </div>
       </div>
       <Carousel />
-      {/* <div>
-        <h3>{lorem.generateSentences(1)}</h3>
-        <h4>{lorem.generateSentences(1)}</h4>
-        <div id="box4TextContainer">
-          <strong>
-            <p>{lorem.generateParagraphs(1)}</p>
-          </strong>
-          <p>{lorem.generateParagraphs(2)}</p>
-          <p>{lorem.generateParagraphs(2)}</p>
+      <div className="myValuesContainer">
+        <h1>My values</h1>
+        <p>My values guide my professional decisions</p>
+        <div className="valuesList">
+          <div className="value">
+            <h2>Kindness</h2>
+            <p>Personal and projects</p>
+          </div>
+          <div className="value">
+            <h2>Enthusiasm</h2>
+            <p>Content</p>
+          </div>
+          <div className="value">
+            <h2>Responsibility</h2>
+            <p>Taking ownership of projects, </p>
+          </div>
+          <div className="value">
+            <h2>Improvement</h2>
+            <p>Personal and projects</p>
+          </div>
         </div>
-      </div> */}
+      </div>
       <div id="box4">
         <Link to="/contact-me">
           <button className="homepageButton">Contact me</button>

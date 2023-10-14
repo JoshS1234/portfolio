@@ -85,6 +85,17 @@
   margin: 2% 0% 0% 0%;
 }
 
+.myValuesContainer {
+  width: 100%;
+  margin: 1%;
+}
+
+.valuesList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 @media (max-width: 700px) {
   #box2 {
     display: flex;

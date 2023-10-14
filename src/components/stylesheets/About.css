@@ -1,16 +1,45 @@
-#box1 {
-  display: flex;
-  flex-direction: column;
-}
-
 #BiographyContainer {
   width: 80%;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: space-around;
+}
+
+.CodingJourney {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  margin: 1%;
+}
+
+.CodingInnerLists {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.innerList {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-content: ;
 }
 
 .IntroParagraph {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ParagraphColumn {
+  width: 45%;
+}
+
+.WhatNext {
+  width: 60%;
 }
