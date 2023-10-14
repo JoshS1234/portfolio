@@ -33,13 +33,6 @@ export default function ProjectList(props) {
                 </h4>
                 <h6>{item.description}</h6>
 
-                {item.hosted ? (
-                  <h6>
-                    <a href={item.hosted}>Hosted site</a>
-                  </h6>
-                ) : (
-                  <></>
-                )}
                 <h6>Click for more...</h6>
               </div>
             </button>

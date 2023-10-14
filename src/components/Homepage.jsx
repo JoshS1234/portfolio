@@ -7,17 +7,6 @@ import box3Image from "../resources/images/Blackjack.png";
 import { Link } from "react-router-dom";
 
 export default function Homepage() {
-  const lorem = new LoremIpsum({
-    sentencesPerParagraph: {
-      max: 8,
-      min: 4,
-    },
-    wordsPerSentence: {
-      max: 16,
-      min: 4,
-    },
-  });
-
   return (
     <div id="homepageContainer">
       <div id="box1">
