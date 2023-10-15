@@ -1,5 +1,5 @@
 #BiographyContainer {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,8 +10,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: antiquewhite;
   margin: 1%;
+  color: white;
 }
 
 .CodingInnerLists {
@@ -23,10 +23,14 @@
 }
 
 .innerList {
-  background-color: red;
   display: flex;
   flex-direction: column;
-  align-content: ;
+}
+
+.introBox {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
 }
 
 .IntroParagraph {

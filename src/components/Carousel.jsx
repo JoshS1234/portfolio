@@ -103,7 +103,7 @@ export default function Carousel() {
                   <h4>{item.description}</h4>
                 </div>
                 <Link to="/projects">
-                  <button id="box1button">Learn more</button>
+                  <button id="box1button">See all projects</button>
                 </Link>
               </div>
             </SwiperSlide>

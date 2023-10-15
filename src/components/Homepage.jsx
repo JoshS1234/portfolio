@@ -36,23 +36,44 @@ export default function Homepage() {
       <Carousel />
       <div className="myValuesContainer">
         <h1>My values</h1>
-        <p>My values guide my professional decisions</p>
         <div className="valuesList">
           <div className="value">
-            <h2>Kindness</h2>
-            <p>Personal and projects</p>
-          </div>
-          <div className="value">
             <h2>Enthusiasm</h2>
-            <p>Content</p>
+            <p>
+              I am enthusiastic with all that I do, both professionally and with
+              hobbies. As a teacher I really engaged with the extra-curricular
+              side of the job, and set up several clubs for students. In my
+              personal life, I love to try new stuff, this year I have started
+              Spanish lessons, have taken up squash, and have worked through
+              several online courses to learn more coding.
+            </p>
           </div>
           <div className="value">
             <h2>Responsibility</h2>
-            <p>Taking ownership of projects, </p>
+            <p>
+              I always take responsibility with projects that I am involved in.
+              When I was studying coding at the Northcoders bootcamp, I really
+              enjoyed completing the tasks, and liked receiving feedback and
+              constructive advice on how to improve my code. When working as a
+              teacher, I was responsible for overseeing the delivery of the core
+              Maths curriculum, which required me to ensure that both Core Maths
+              classes were making the required progress. I also took
+              responsibility for the assessments in this subject, and liaised
+              with the Head of Maths to ensure that the assessments reflected
+              the content that students would see in the final exams.
+            </p>
           </div>
           <div className="value">
-            <h2>Improvement</h2>
-            <p>Personal and projects</p>
+            <h2>Personal Development</h2>
+            <p>
+              I am always keen to improve and I love to try out new things.
+              While working as a teacher, I would regularly research new ways to
+              teach a topic, and try to find new resources and teaching tools to
+              improve my pedagogy. Since deciding to leave my role as a teacher,
+              I have taken steps to move towards a career in software
+              development, by completing a coding bootcamp and several online
+              courses.
+            </p>
           </div>
         </div>
       </div>
