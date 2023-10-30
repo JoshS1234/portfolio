@@ -1,27 +1,15 @@
-import React, { useEffect, useState } from "react";
 import "./stylesheets/ProjectList.css";
 import projects from "../resources/projects";
+import { Link } from "react-router-dom";
 
-export default function ProjectList(props) {
-  const handlePress = (e, item) => {
-    e.preventDefault();
-    props.setIsSingle(true);
-    props.setItem(item);
-  };
-
+export default function ProjectList() {
   return (
     <div>
       <h1>My Projects</h1>
       <div className="projectBox">
         {projects.map((item) => {
           return (
-            <button
-              className="projectButton"
-              onClick={(e) => {
-                console.log(item);
-                handlePress(e, item);
-              }}
-            >
+            <Link to={"/projects/" + item.id} className="projectButton">
               <div className="projectTile">
                 <h2>
                   {item.name}, {item.year}
@@ -35,7 +23,7 @@ export default function ProjectList(props) {
 
                 <h6>Click for more...</h6>
               </div>
-            </button>
+            </Link>
           );
         })}
       </div>

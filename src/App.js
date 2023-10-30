@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import NotFound from "./components/NotFound";
 import FooterBar from "./components/FooterBar";
+import ProjectList from "./components/ProjectList";
 import Projects from "./components/Projects";
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about-me" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects" element={<ProjectList />} />
+        <Route path="/projects/:id" element={<Projects />} />
         <Route path="/contact-me" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

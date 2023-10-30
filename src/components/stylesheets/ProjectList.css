@@ -26,6 +26,11 @@
   padding: 2%;
   margin: 1%;
   height: 400px;
+  text-decoration: none;
+  color: black;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
 }
 
 .projectButton:hover {
