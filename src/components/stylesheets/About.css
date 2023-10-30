@@ -7,24 +7,32 @@
 }
 
 .CodingJourney {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
-  margin: 1%;
+  justify-content: space-around;
+  align-items: center;
   color: white;
 }
 
 .CodingInnerLists {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
 }
 
-.innerList {
+.codingPhase {
   display: flex;
   flex-direction: column;
+}
+
+.innerList {
+}
+
+.innerList li {
+  text-align: left;
 }
 
 .introBox {
@@ -46,4 +54,65 @@
 
 .WhatNext {
   width: 60%;
+}
+
+@media (max-width: 700px) {
+  #BiographyContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .CodingJourney {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  }
+
+  .CodingInnerLists {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+
+  .codingPhase {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .innerList {
+    padding-left: 0;
+  }
+
+  .innerList li {
+    text-align: left;
+  }
+
+  .introBox {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .IntroParagraph {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0% 0% 3% 0%;
+  }
+
+  .ParagraphColumn {
+    width: 100%;
+  }
+
+  .WhatNext {
+    width: 80%;
+  }
 }

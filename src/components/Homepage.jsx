@@ -8,11 +8,9 @@ import { Link } from "react-router-dom";
 
 export default function Homepage() {
   return (
-    <div id="homepageContainer">
+    <div className="homepageContainer">
       <div id="box1">
-        <div id="box1ImageContainer">
-          <img src={box1Image} id="box1Image" />
-        </div>
+        <img src={box1Image} id="box1Image" />
         <div id="box1TextContainer">
           <div>
             <h2>I'm Josh. A junior full-stack software developer.</h2>

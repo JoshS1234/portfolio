@@ -100,11 +100,7 @@ export default function About() {
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            height: "500px",
-            display: "flex",
-            flexDirection: "column",
-            alignContent: "center",
-            justifyContent: "space-around",
+            height: "fit-content",
           }}
         >
           <h1>My coding milestones</h1>
@@ -115,14 +111,14 @@ export default function About() {
             development. Relevant coding skills and experience are listed here.
           </p>
           <ul className="CodingInnerLists">
-            <li>
+            <li className="codingPhase">
               <h2>University</h2>
               <ul className="innerList">
                 <li>MATLAB</li>
                 <li>R</li>
               </ul>
             </li>
-            <li>
+            <li className="codingPhase">
               <h2>Hobbyist</h2>
               <ul className="innerList">
                 <li>Fundamentals of Python</li>
@@ -130,7 +126,7 @@ export default function About() {
                 <li>Keras/Tensorflow</li>
               </ul>
             </li>
-            <li>
+            <li className="codingPhase">
               <h2>Northcoders</h2>
               <ul className="innerList">
                 <li>Fundamentals of JavaScript (NodeJS)</li>
@@ -143,7 +139,7 @@ export default function About() {
                 <li>Final group project (React native, Firebase)</li>
               </ul>
             </li>
-            <li>
+            <li className="codingPhase">
               <h2>Continued study</h2>
               <ul className="innerList">
                 <li>CodeAcademy: Learn React</li>
