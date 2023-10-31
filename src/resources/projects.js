@@ -69,7 +69,7 @@ export default [
     year: 2022,
   },
   {
-    id: 4,
+    id: 5,
     name: "Vicsek model of bird flocking",
     image_url: "",
     video_url: "kT1rA1vLfCs",
@@ -84,7 +84,7 @@ export default [
     year: 2020,
   },
   {
-    id: 5,
+    id: 6,
     name: "Mandelbrot fractal pattern - Changing power",
     image_url: "",
     video_url: "sp-zj7p8zPE",
@@ -99,7 +99,7 @@ export default [
     year: 2020,
   },
   {
-    id: 6,
+    id: 7,
     name: "2D pendulum motion",
     image_url: pendulum,
     video_url: "thhOujbmXdA",
@@ -114,7 +114,7 @@ export default [
     year: 2020,
   },
   {
-    id: 7,
+    id: 8,
     name: "Mandelbrot fractal",
     image_url: pythonMandelbrot,
     video_url: "",
@@ -129,7 +129,7 @@ export default [
     year: 2021,
   },
   {
-    id: 8,
+    id: 9,
     name: "Handwriting recognition - Neural network",
     image_url: six,
     video_url: "",
@@ -145,7 +145,7 @@ export default [
     year: 2020,
   },
   {
-    id: 9,
+    id: 10,
     name: "ASCII Tic Tac Toe (Noughts and crosses)",
     image_url: TicTacToe,
     video_url: "",
@@ -161,7 +161,7 @@ export default [
     year: 2020,
   },
   {
-    id: 10,
+    id: 11,
     name: "Blackjack",
     image_url: blackjack,
     video_url: "",

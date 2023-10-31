@@ -4,14 +4,14 @@
   justify-content: center;
 }
 
-#box1 {
+.box1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-#box1TextContainer {
+.box1TextContainer {
   width: 50%;
   align-items: center;
   justify-content: space-around;
@@ -19,7 +19,7 @@
   text-align: left;
 }
 
-#box1Image {
+.box1Image {
   width: 20%;
   padding: 10%;
   border-radius: 50%;
@@ -63,6 +63,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 1%;
 }
 
 #box4TextContainer {
@@ -105,35 +106,28 @@
     width: 100%;
   }
 
-  #box1 {
+  .box1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     width: 100%;
   }
 
-  #box1TextContainer {
-    width: 100%;
+  .box1TextContainer {
+    width: 80%;
     align-items: center;
     justify-content: space-around;
-    margin: 5%;
     text-align: left;
   }
 
-  #box1Image {
+  .box1Image {
     width: 50%;
-    padding: 10%;
     border-radius: 50%;
+    padding: 5% 0% 0% 0%;
   }
 
   #box1button {
-    padding: 10px;
-    color: white;
-    background-color: rgba(0, 120, 255, 1);
-    border: 0px;
-    border-radius: 10%;
-    font-size: large;
+    display: none;
   }
 
   #box3 {
@@ -165,6 +159,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 2%;
   }
 
   #box4TextContainer {

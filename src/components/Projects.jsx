@@ -51,7 +51,9 @@ export default function Projects(props) {
 
   return (
     <div className="singleProjectTile">
-      <Link to="/projects">return to projects</Link>
+      <Link to="/projects" className="returnButton1">
+        return to projects
+      </Link>
       <div>
         <div>
           <div className="infoImg">
@@ -83,7 +85,9 @@ export default function Projects(props) {
         </div>
       </div>
       {videoMedia ? videoMedia : <></>}
-      <Link to="/projects">return to projects</Link>
+      <Link to="/projects" className="returnButton2">
+        return to projects
+      </Link>
     </div>
   );
 }
