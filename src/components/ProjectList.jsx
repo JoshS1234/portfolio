@@ -10,14 +10,14 @@ export default function ProjectList() {
         {projects.map((item) => {
           return (
             <Link to={"/projects/" + item.id} className="projectButton">
-              <h2>
+              <h3>
                 {item.name}, {item.year}
-              </h2>
-              <h4>
+              </h3>
+              <h5>
                 Languages and tech: {item.language}
                 {""}
                 {item.tech ? <>, {item.tech}</> : <></>}
-              </h4>
+              </h5>
               <h6>{item.description}</h6>
 
               <h6>Click for more...</h6>

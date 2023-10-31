@@ -11,7 +11,7 @@ export default function Contact() {
           <p>E-mail: joshua.spence@hotmail.co.uk</p>
           <p>Github: https://github.com/JoshS1234</p>
           <a target="_blank" rel="noreferrer" href={CV}>
-            <button id="box1button">Download a CV</button>
+            <button className="box1button">Download a CV</button>
           </a>
         </div>
       </div>

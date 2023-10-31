@@ -21,7 +21,7 @@
   justify-content: space-around;
 }
 
-#box1button {
+.box1button {
   padding: 10px;
   color: white;
   background-color: rgba(0, 120, 255, 1);
@@ -54,7 +54,7 @@
     justify-content: space-around;
   }
 
-  #box1button {
+  .box1button {
     padding: 10px;
     color: white;
     background-color: rgba(0, 120, 255, 1);
